@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>nbut-mickey</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
-    <link href="images/title-log.ico" rel="title-log Icon"/>
+    <link href="images/title-log.png" rel="title-log Icon"/>
 </head>
 <body>
 <div id="header">
@@ -13,8 +13,6 @@
     <div id="header-text"><marquee direction="left" scrollamount="5"><div id="header-text-chinese">欢 迎 来 到 米 奇 的 网 页</div>
         <div id="header-text-english">Welcome to Mickey's website</div></marquee>
     </div>
-    <div id="header-search"><input type="text"/></div>
-    <div id="header-button"><input type="button" value="点击搜索"/></div>
 </div>
 <div id="nav">
 <ul>
@@ -25,7 +23,6 @@
         <li><a href="">古都南京</a></li>
         <li><a href="">记忆杭州</a></li>
         <li><a href="">阿拉宁波</a></li>
-        <li><a href="">故乡六安</a></li>
     </ul>
     </li>
     <li><a href="">程序人生</a>
@@ -56,11 +53,13 @@
 <div id="content">
     <div class="login-box">
         <div class="login-bg">
+            <form action="">
             <div class="e-mail"><span>&nbsp邮 箱 ：</span><input type="text"/></div>
             <div class="password"><span>&nbsp密 码 ：</span><input type="password"/></div>
-            <div class="confirm"><span>验证码：</span><input type="text"/><img src="images/captcha.jpeg" alt=""/></div>
+            <div class="confirm"><span>验证码：</span><input type="text"/><div class="confirm-img"></div></div>
             <div class="login-number"><span class="checkbox"><input type="checkbox"/>&nbsp<span class="text">请记住登录账号！</span></span></div>
             <div class="group"><span><button type="button" class="button1">登&nbsp&nbsp录</button></span>&nbsp&nbsp<span><button type="reset" class="button2">重&nbsp&nbsp置</button></span></div>
+            </form>
         </div>
     </div>
     <div class="slide-img" id="slide-img">
@@ -78,7 +77,7 @@
         <span class=""></span>
     </div>
 </div>
-<div id="footer"><div id="footer-version">Copyright by nbut-mickey 2017-2018&copy</div></div>
+<div id="footer"><p>Copyright by nbut-mickey 2017-2018&copy</p></div>
 <script type="text/javascript" src="js.js"></script>
 </body>
 </html>
