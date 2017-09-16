@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.images-radius{
+    margin-top: -10px;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.images-radius img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.btn-default{
+    background-color:#337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+.btn-default:hover{
+    background-color:#337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+
+.carousel-inner{
+    margin-top: -18px;
+}
+.footer{
+    padding: 35px 0 0;
+    border-radius: 2px;
+    background-color: #0f0f0f;
+    margin-top: 2px;
+    position: relative;
+
+}
+.widgest{
+    padding: 0 30px;
+    margin-bottom: 35px;
+}
+.title{
+    padding-bottom: 7px;
+    color: #fff;
+    border-bottom: 1px #303030 solid ;
+    margin-bottom: 21px;
+}
+.link-friend{
+    padding: 10px 10px 10px 0;
+}
+.link-friend a{
+    padding: 15px 0;
+    display: block;
+    border-bottom: 1px dashed #303030;
+    color: #959595;
+}
+.link-friend a:hover{
+    color:#0099ff;
+    text-decoration: none;
+}
+.titles:after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    background: #337ab7;
+    position: absolute;
+    left: 44px;
+    top: 35px;
+}
+.tag-cloud{
+    padding: 10px 10px 10px 0;
+}
+.tag-cloud a{
+    display: inline-block;
+    padding: 2px 7px;
+    color: #959595;
+    border: 1px solid #303030;
+    margin-top: 10px;
+}
+.tag-cloud a:hover{
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #e38d13;
+}
+.copyright {
+    border-top: 1px solid #303030;
+    background-color: #111;
+    color: #555;
+    font-size: 16px;
+}
+.cy{
+    padding: 30px 0;
+    text-align: center;
+
+}
