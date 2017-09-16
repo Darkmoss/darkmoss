@@ -1,280 +1,99 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-ul{
-    list-style: none;
+a{
+    text-decoration: none;
 }
-#header{
-    width:100%;
-    height: 125px;
-    background:url("images/index-header-bg.jpg");
-    position: relative;
-}
-#header-logo{
-    position: absolute;
-    top:20px;
-    left: 200px;
-}
-#header-logo img{
-    width: 80px;
-    height: 80px;
+
+.images-radius{
+    margin-top: -10px;
+    width:40px;
+    height: 40px;
     border-radius: 50%;
 }
-#header-text{
-    width: 895px;
-    position: absolute;
-    left:285px;
-    top: 30px;
-    float: left;
-    font-size: 35px;
-    font-weight: bold;
-}
-#header-text-chinese{
-    font-family: 黑体;
-    text-align: center;
-
-}
-#header-text-english{
-    text-align: center;
-    font-size:25px;
-    color: gold;
-}
-
-
-
-#nav{
-    border-radius:4px;
-    position: absolute;
-    background-color: dimgray;
-    width:1000px;
-    margin: 2px auto;
-    height: 80px;
-    left: 174px;
-}
-
-#nav ul li a{
-    font-family: 楷体gb_2312;
-    border-radius: 10px;
-    height: 80px;
-    line-height:80px;
-    text-decoration: none;
-    font-size: 22px;
-    color: white;
-    display: block;
-}
-#nav ul li ul li a{
-    height: 50px;
-    line-height: 50px;
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-    display: block;
-    border-radius: 10px;
-    z-index: 599;
-    font-family: 楷体;
-    font-weight: bold;
-}
-#nav ul li{
-
-    position: relative;
-    width: 200px;
-    float: left;
-    text-align: center;
-}
-#nav ul li ul li{
-
-    border-radius: 10px;
-    z-index: 999;
-    background-color:rgba(255,255,255,0.4);
-}
-#nav ul li ul  a:hover{
-    background-color: chocolate;
-    color: white;
-}
-#nav ul li a:hover{
-    background-color: green;
-    color: #eeeeee;
-}
-
-#nav ul li ul{display: none;
-}
-#nav ul li:hover ul{display: block;}
-#content{
-    position: relative;
-    width: 1000px;
-    margin-top: 85px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    background-color: darkgray;
-}
-#footer{
-    width: 1000px;
-    position: relative;
-    margin:2px auto;
-    background-color: black;
-    padding:20px 0;
-}
-#footer p{
-    display: block;
-    width: 300px;
-    height: 20px;
-    color: rgba(255,255,255,0.7);
-    font-size: 14px;
-    margin: 0 auto;
-}
-.slide-img{
-    position: relative;
-    width: 600px;
-    height: 390px;
-    float: right;
-    margin:6px 10px 2px 0;
-    border-radius: 6px;
-    overflow: hidden;
-}
-.bg1{
-    width: 600px;
-    height: 390px;
-    background-image: url("images/bg1.jpg");
-}
-.bg2{
-    width: 600px;
-    height: 390px;
-    background-image: url("images/bg2.jpg");
-}
-.bg3{
-    width: 600px;
-    height: 390px;
-    background-image: url("images/bg3.jpg");
-}
-.bg4{
-    width: 600px;
-    height: 390px;
-    background-image: url("images/bg4.jpg");
-}
-
-.button{
-    position: absolute;
-    left: 5px;
-    top: 150px;
+.images-radius img{
     width: 40px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 40px;
-    color: white;
-    text-align: center;
-    background-color: rgba(0,0,0,0.4);
-    display:none;
-    cursor: pointer;
-}
-.next{
-    left: auto;
-    right: 5px;
-}
-.dots{
-    position: absolute;
-    top: 370px;
-    right: 18px;
-}
-.dots span{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin-left: 7px;
+    height: 40px;
     border-radius: 50%;
-    background-color:rgba(7, 17, 27, 0.4);
-    box-shadow:0 0 0 2px rgba(255, 255, 255, 0.8)  ;
-    cursor: pointer;
 }
-.dots span.dots-active{
-    background-color: white;
-    box-shadow:0 0 0 2px rgba(255, 255, 255, 0.8) ;
+.btn-default{
+    background-color:#337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+.btn-default:hover{
+    background-color:#337ab7;
+    border-color: #2e6da4;
+    color: #fff;
 }
 
-.login-box{
+.carousel-inner{
+    margin-top: -18px;
+}
+.footer{
+    padding: 35px 0 0;
+    border-radius: 2px;
+    background-color: #0f0f0f;
+    margin-top: 2px;
     position: relative;
-    width: 380px;
-    height: 390px;
-    float: left;
-    margin:4px 5px;
-}
-.login-bg{
-    margin-top: 20px;
-    position: relative;
-    width: 360px;
-    height: 390px;
-    background: url("images/login-box-bg2.png");
-}
-.login-bg form{
-    padding: 40px 55px;
-}
-.e-mail{
-    width: 280px;
-    height: 30px;
-    margin: 10px auto;
-}
 
-.password{
-    width: 280px;
-    height: 30px;
-    margin: 10px auto;
 }
-.confirm{
-    width: 280px;
-    height: 30px;
-    margin: 10px auto;
+.widgest{
+    padding: 0 30px;
+    margin-bottom: 35px;
 }
-.e-mail,.password,.confirm span{
-  color: white;
-    font-size: 14px;
-    font-weight: 700;
+.title{
+    padding-bottom: 7px;
+    color: #fff;
+    border-bottom: 1px #303030 solid ;
+    margin-bottom: 21px;
 }
-.password input,.e-mail input{
-    width: 200px;
-    height:22px;
+.link-friend{
+    padding: 10px 10px 10px 0;
 }
-
-.confirm input{
-
-    width: 75px;
-    height:22px;
-}
-.login-number{
-    height: 30px;
-    border-bottom:1px dotted #eeeeee;
-}
-.checkbox{
+.link-friend a{
+    padding: 15px 0;
     display: block;
-    margin-left:60px;
+    border-bottom: 1px dashed #303030;
+    color: #959595;
 }
-.text{
-    color: white;
-    font-size: 12px;
+.link-friend a:hover{
+    color:#0099ff;
+    text-decoration: none;
 }
-.group{
-    width: 145px;
-    height: 50px;
-    margin: 10px auto;
-}
-.button1{
-    background-color: #24b2d9;
-    border: 1px solid #357ebd;
-    padding: 8px 14px;
-    cursor: pointer;
-    color: rgb(255,255,255);
-}
-.button2{
-    padding: 8px 14px;
-    border: 1px solid #e8e8e8;
-    color: rgb(0,0,0);
-    cursor: pointer;
-}
-.confirm-img{
+.titles:after {
+    content: "";
     width: 120px;
-    height: 26px;
-    margin-right: 20px;
-    float: right;
-    background-image: url("images/captcha.jpeg");
+    height: 1px;
+    background: #337ab7;
+    position: absolute;
+    left: 44px;
+    top: 35px;
 }
+.tag-cloud{
+    padding: 10px 10px 10px 0;
+}
+.tag-cloud a{
+    display: inline-block;
+    padding: 2px 7px;
+    color: #959595;
+    border: 1px solid #303030;
+    margin-top: 10px;
+}
+.tag-cloud a:hover{
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #e38d13;
+}
+.copyright {
+    border-top: 1px solid #303030;
+    background-color: #111;
+    color: #555;
+    font-size: 16px;
+}
+.cy{
+    padding: 30px 0;
+    text-align: center;
 
+}
