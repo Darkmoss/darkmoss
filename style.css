@@ -105,11 +105,13 @@ a{
     color: #e38d13;
 }
 .modal-footer{
-    text-align: center;
+   text-align: left;
 }
-.modal-header{
-    text-align: center;
+.modal-dialog {
+    width: 330px;
+    margin: 130px auto;
 }
+
 .btn-change{
     background-color: #4cae4c;
 }
