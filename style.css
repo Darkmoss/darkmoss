@@ -31,13 +31,13 @@ a{
 }
 
 .carousel-inner{
-    margin-top: -19px;
+    margin-top: -20px;
 }
 .footer{
     padding: 35px 0 0;
     border-radius: 2px;
     background-color: #0f0f0f;
-    margin-top: 1px;
+    margin-top:-1px;
     position: relative;
 
 }
@@ -106,10 +106,6 @@ a{
 }
 .modal-footer{
    text-align: left;
-}
-.modal-dialog {
-    width: 330px;
-    margin: 130px auto;
 }
 
 .btn-change{
